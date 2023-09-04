@@ -1,8 +1,8 @@
 package org.example;
 
 public class Rhombus extends Shape {
-    private int sideLength;
-     private int height;
+    private final int sideLength;
+     private final int height;
 
     public Rhombus(String colour, int sideLength, int height) {
         super(colour);

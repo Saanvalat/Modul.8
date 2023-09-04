@@ -1,8 +1,8 @@
 package org.example;
 
 public class Oval extends Shape {
-    private int a;
-    private int b;
+    private final int a;
+    private final int b;
 
     public Oval(String colour, int a, int b) {
         super(colour);

@@ -1,7 +1,7 @@
 package org.example;
 
 public class Circle extends Shape {
-    private int radius;
+    private final int radius;
 
 
     public Circle(String colour, int radius) {
@@ -18,4 +18,6 @@ public class Circle extends Shape {
     public int getArea() {
         return (int) (Math.PI*Math.pow(radius, 2));
     }
+
+
 }

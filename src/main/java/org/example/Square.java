@@ -1,7 +1,7 @@
 package org.example;
 
 public class Square extends Shape {
-    private int side;
+    private final int side;
 
     public Square(String colour, int side) {
         super(colour);
