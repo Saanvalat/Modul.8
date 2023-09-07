@@ -1,6 +1,6 @@
 package org.example;
 
-public class Circle extends Shape {
+public class Circle extends ShapePrinter {
     private final int radius;
 
 

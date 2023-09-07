@@ -1,6 +1,6 @@
 package org.example;
 
-public class Oval extends Shape {
+public class Oval extends ShapePrinter {
     private final int a;
     private final int b;
 

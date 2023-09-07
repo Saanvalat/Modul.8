@@ -1,6 +1,6 @@
 package org.example;
 
-public class Rhombus extends Shape {
+public class Rhombus extends ShapePrinter {
     private final int sideLength;
      private final int height;
 

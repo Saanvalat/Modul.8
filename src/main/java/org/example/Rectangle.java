@@ -1,6 +1,6 @@
 package org.example;
 
-public class Rectangle extends Shape {
+public class Rectangle extends ShapePrinter {
 
     private final int width;
     private final int height;
