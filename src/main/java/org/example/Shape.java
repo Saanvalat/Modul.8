@@ -1,22 +1,10 @@
 package org.example;
 public abstract class Shape {
-    private String colour;
+    private final String colour;
 
     public Shape(String colour) {
         this.colour = colour;
     }
-
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
-
-    public abstract String getName();
-    abstract public int getArea();
-
 
     public static void main(String[] args) {
     Circle circle = new Circle("blue", 10);
@@ -33,4 +21,5 @@ public abstract class Shape {
         System.out.println("name: " + rectangle.getName() + ", colour: " + rectangle.getColour() + ", area: " + rectangle.getArea() + " sm");
         System.out.println("name: " + oval.getName() + ", colour: " + oval.getColour() + ", area: " + oval.getArea() + " sm");
     }
+
 }

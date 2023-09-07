@@ -1,6 +1,6 @@
 package org.example;
 
-public class Square extends Shape {
+public class Square extends ShapePrinter {
     private final int side;
 
     public Square(String colour, int side) {
