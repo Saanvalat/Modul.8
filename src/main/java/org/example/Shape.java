@@ -1,12 +1,22 @@
 package org.example;
 public abstract class Shape {
-
-    protected String getArea;
-    protected String getColour;
+    private String colour;
 
     public Shape(String colour) {
+        this.colour = colour;
     }
-    protected abstract String getName();
+
+    public String getColour() {
+        return colour;
+    }
+
+    public void setColour(String colour) {
+        this.colour = colour;
+    }
+
+    public abstract String getName();
+    abstract public int getArea();
+
 
     public static void main(String[] args) {
     Circle circle = new Circle("blue", 10);
@@ -16,19 +26,11 @@ public abstract class Shape {
     Rectangle rectangle = new Rectangle("black", 9,10);
     Oval oval = new Oval("brown", 13,14);
 
-
         System.out.println("name: " + circle.getName() + ", colour: " + circle.getColour() + ", area: " + circle.getArea() + " sm");
         System.out.println("name: " + triangle.getName() + ", colour: " + triangle.getColour() + ", area: " + triangle.getArea() + " sm");
         System.out.println("name: " + square.getName() + ", colour: " + square.getColour() + ", area: " + square.getArea() + " sm");
         System.out.println("name: " + rhombus.getName() + ", colour: " + rhombus.getColour() + ", area: " + rhombus.getArea() + " sm");
         System.out.println("name: " + rectangle.getName() + ", colour: " + rectangle.getColour() + ", area: " + rectangle.getArea() + " sm");
         System.out.println("name: " + oval.getName() + ", colour: " + oval.getColour() + ", area: " + oval.getArea() + " sm");
-
-
     }
-
-
-
-    }
-
-
+}
