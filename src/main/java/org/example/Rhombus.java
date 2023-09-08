@@ -19,5 +19,6 @@ public class Rhombus extends ShapePrinter {
     public int getArea() {
         return sideLength*height;
     }
+
 }
 

@@ -17,4 +17,5 @@ public class Triangle extends ShapePrinter {
     public int getArea() {
         return (side*side)/2;
     }
+
 }

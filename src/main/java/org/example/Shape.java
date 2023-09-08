@@ -24,6 +24,7 @@ public abstract class Shape {
         System.out.println("name: " + rectangle.getName() + ", colour: " + rectangle.getColour() + ", area: " + rectangle.getArea() + " sm");
         System.out.println("name: " + oval.getName() + ", colour: " + oval.getColour() + ", area: " + oval.getArea() + " sm");
 
+
     }
 
 

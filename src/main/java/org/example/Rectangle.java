@@ -20,4 +20,5 @@ public class Rectangle extends ShapePrinter {
     public int getArea() {
         return width*height;
     }
+
 }

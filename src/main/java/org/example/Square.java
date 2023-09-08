@@ -17,4 +17,5 @@ public class Square extends ShapePrinter {
     public int getArea() {
         return side*side;
     }
+
 }
