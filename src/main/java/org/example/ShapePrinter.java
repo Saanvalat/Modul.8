@@ -16,7 +16,6 @@ public abstract class ShapePrinter extends Shape {
     public void setColour(String colour) {
         this.colour = colour;
     }
-<<<<<<< HEAD
 
     abstract public int getArea();
     public String printArea(Shape shape){
@@ -30,12 +29,5 @@ public abstract class ShapePrinter extends Shape {
     public String print(Shape shape) {
         return shape.getName();
     }
-
-=======
-    abstract public int getArea();
-
-
-    public abstract String getName();
->>>>>>> origin/master
 
 }

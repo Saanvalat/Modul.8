@@ -1,5 +1,7 @@
 package org.example;
 public abstract class Shape {
+    protected String getColour;
+    protected String getArea;
     private String colour;
 
     public Shape(String colour) {
